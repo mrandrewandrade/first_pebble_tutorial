@@ -173,6 +173,21 @@ load_image_resource(RESOURCE_ID_IMAGE_PANDA_SAD);
 load_image_resource(RESOURCE_ID_IMAGE_PANDA_HAPPY);
 
 
-Lets get coding
+##Lets get coding
 
 We now have all the requirements, lets get coding.
+
+You can find the source for the [here](https://raw.githubusercontent.com/mrandrewandrade/first_pebble_tutorial/master/src/main.c), it is your job to comment it line by line so you understand what is going on.  Lets get this to build so you can play with it and see the behaviour of the app paired with the code.
+
+Click add new and name it main.c.  You can now copy paste the code from above.
+
+Once you added the code, you can click Compilation on the left.  Lets add the phone's ip address.
+
+On your phone open the pebble app, tab the left to open the menu and click developer.  Now lets add the server IP into cloudpebble which is showing on your phone.
+
+Click install and run and now you have the app installed an running on your pebble!
+
+Flick your wrist and watch the image change.
+
+I am a bit tired now writing this tutorial.  When I get a chance, I will put some more info about each function and some android/iOS code how to send messages.
+
