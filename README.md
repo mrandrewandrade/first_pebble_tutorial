@@ -71,6 +71,19 @@ Alternatively you can download the zip folder for my app [here] (https://github.
 
 Now click import and get started
 
+### Lets get running before we can walk!
+
+If just set up the project with the code and resoruces and want to get it running on your phone, look no further.  Other skip the next couple steps and follow option 2.
+
+Once you added the code, you can click Compilation on the left. Lets add the phone's ip address.
+
+On your phone open the pebble app, tap the left to open the menu and click developer. Now lets add the server IP into cloudpebble which is showing on your phone.
+
+Click install and run and now you have the app installed an running on your pebble!
+
+Flick your wrist and watch the image change.  Now that its working, its time go get hacking!  You can use the rest of this guide as reference.
+
+
 ## Option 2: Create a project from scratch
 If you choose option 2, you are on the right track and should create a new project
 ![alt text](https://raw.githubusercontent.com/mrandrewandrade/scratch/master/images/first_pebble_tutorial/4.png )
