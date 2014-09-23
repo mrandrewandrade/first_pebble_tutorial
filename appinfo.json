@@ -7,7 +7,18 @@
     "longName": "First Pebble Tutorial",
     "projectType": "native",
     "resources": {
-        "media": []
+        "media": [
+            {
+                "file": "images/panda_sad.png",
+                "name": "IMAGE_PANDA_SAD",
+                "type": "png"
+            },
+            {
+                "file": "images/panda_happy.png",
+                "name": "IMAGE_PANDA_HAPPY",
+                "type": "png"
+            }
+        ]
     },
     "shortName": "First Pebble Tutorial",
     "uuid": "1cf8a047-22a8-47cf-beee-1b3269a4a93f",
