@@ -102,7 +102,7 @@ If a popup comes up about C2 conversion, just click convert
 
 The pebble screen is 144×168 pixel so lets get our image to that size.  Go to image-> scale image and lets set the width to 144.  Since the image is about square in this case, this should leave me with some pixels above and below for text such as the time and possible a messages
 
-![alt text](https://raw.githubusercontent.com/mrandrewandrade/scratch/master/images/first_pebble_tutorial/6.png )
+![alt text](https://raw.githubusercontent.com/mrandrewandrade/scratch/master/images/first_pebble_tutorial/6.jpg)
 
 Now click scale and it should scale to a smaller size
 
