@@ -9,13 +9,13 @@
     "resources": {
         "media": [
             {
-                "file": "images/panda_sad.png",
-                "name": "IMAGE_PANDA_SAD",
+                "file": "images/panda_happy.png",
+                "name": "IMAGE_PANDA_HAPPY",
                 "type": "png"
             },
             {
-                "file": "images/panda_happy.png",
-                "name": "IMAGE_PANDA_HAPPY",
+                "file": "images/panda_sad.png",
+                "name": "IMAGE_PANDA_SAD",
                 "type": "png"
             }
         ]
