@@ -1,5 +1,5 @@
 #Getting Starting with Pebble App Tutorial
-###A step by step guide to writing a pebble app with custom images, use the tap handler for gestures, change images with time and talk to iOS and android
+A step by step guide to writing a pebble app with custom images, use the tap handler for gestures, change images with time and talk to iOS and android
 Months ago I bought my first [pebble watch] (https://getpebble.com/) and I finally had a chance to make my first pebble app during HackTheNorth.  My team built an awesome app called Pandr, a tomagachhi like  iPhone app which grew based on your goals taking information from your wearables.
 
 Since Pebble was completely new to me, there was as slight bit of a learning curve, so this guide is my modest attempt to give a few trips and tricks to save time.  This guide was created by the help of Matthew Hungerford's advice at the hackathon and his smaple code [here] [https://github.com/mhungerford/pebble-firstwatch]
@@ -53,4 +53,11 @@ Again please do not select vim-like if you do not know what that is.  Just use t
 #Creating or importing  project:
 We are now ready  to start our project.  If you are lazy or want to get an app up and running as soon as possible so you can start hacking, then you import my project with option 1.  I suggest you follow option 2 of starting from scratch so can you learn more, but the choice is yours.
 
+Option 1: Importing my project
+You can import [my project from github](https://github.com/mrandrewandrade/first_pebble_tutorial)
+-At the top click IMPORT-> IMPORT FROM GITHUB 
+-Fill out the project name: FIRST_PEBBLE_TUTORIAL
+-Github project: https://github.com/mrandrewandrade/first_pebble_tutorial
+
+![alt text](https://raw.githubusercontent.com/mrandrewandrade/scratch/master/images/first_pebble_tutorial/2.png )
 
