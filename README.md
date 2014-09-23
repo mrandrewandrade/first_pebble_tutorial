@@ -84,7 +84,7 @@ To get started you can download and install (GIMP - The GNU Image Manipulation
 
 After downloading and install GIMP, download a sample photo and get started.  For the hackathon and for the sake of this tutorial lets use  a cute panda for the app.  The designer on the team created this asset and shared it with me.  
 
-![alt text](https://raw.githubusercontent.com/mrandrewandrade/scratch/master/images/first_pebble_tutorial/5.png )
+![alt text](https://raw.githubusercontent.com/mrandrewandrade/scratch/master/images/first_pebble_tutorial/5.jpg )
 
 Lets go ahead and download the image by right clicking this and saving.
 
