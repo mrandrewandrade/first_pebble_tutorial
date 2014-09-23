@@ -32,11 +32,9 @@ Steps include:
 
 ## Getting started witht the SDK
 
-Now that you have your pebble and your phone set up, you can now start with developing your first app.  A great place to start is the [Pebble WatchApp SDK site] (https://developer.getpebble.com/sdk/)
+Now that you have your pebble and your phone set up, you can now start with developing your first app.  A great place to start is the [Pebble WatchApp SDK site] (https://developer.getpebble.com/sdk/) I strongly recommend the [CloudPebble IDE](https://cloudpebble.net/ide/) (open in a new tab) mostly because I am lazy and used it instead of downloading the SDK and it worked fine for me :).	
 
-I strongly recommend the CloudPebble IDE mostly because I am lazy and used it instead of downloading the SDK and it worked fine for me :).	
-
-Once you have the ide open, you can now get stated with the sdks at the  bottom of the page for[iOS] (https://github.com/pebble/pebble-ios-sdk) and [Android] (https://github.com/pebble/pebble-android-sdk).  If you like reading and setting things up step by step, I would recommend you go ahead an read the guides and they explain things very well then come back here (I will wait for you). If you like to do things by jumping in and hacking, lets get started.
+Once you have the ide open, you can now get stated with the sdks at the  bottom of the page for [iOS] (https://github.com/pebble/pebble-ios-sdk) and [Android] (https://github.com/pebble/pebble-android-sdk).  If you like reading and setting things up step by step, I would recommend you go ahead an read the guides and they explain things very well then come back here (I will wait for you). If you like to do things by jumping in and hacking, lets get started.
 
 ## Important things before we start:
 
@@ -57,7 +55,9 @@ Again please do not select vim-like if you do not know what that is.  Just use t
 We are now ready  to start our project.  If you are lazy or want to get an app up and running as soon as possible so you can start hacking, then you import my project with option 1.  I suggest you follow option 2 of starting from scratch so can you learn more, but the choice is yours.
 
 ## Option 1: Importing my project
-You can import [my project from github](https://github.com/mrandrewandrade/first_pebble_tutorial)
+
+
+From the  [CloudPebble IDE](https://cloudpebble.net/ide/) you can import [my project from github](https://github.com/mrandrewandrade/first_pebble_tutorial).  Here is how:
 - At the top click IMPORT-> IMPORT FROM GITHUB 
 - Fill out the project name: FIRST_PEBBLE_TUTORIAL
 - Github project: https://github.com/mrandrewandrade/first_pebble_tutorial
@@ -73,13 +73,15 @@ Now click import and get started
 
 ### Lets get running before we can walk!
 
-If just set up the project with the code and resoruces and want to get it running on your phone, look no further.  Other skip the next couple steps and follow option 2.
+If just set up the project with the code and resoruces and want to get it running on your phone, look no further.  Otherwise skip the next couple steps and follow option 2.
 
-Once you added the code, you can click Compilation on the left. Lets add the phone's ip address.
+Once you added the code, you can click Compilation on the left panel.  Lets add the phone's ip address:
 
-On your phone open the pebble app, tap the left to open the menu and click developer. Now lets add the server IP into cloudpebble which is showing on your phone.
+- On your phone open the pebble app, tap the left to open the menu and click developer.  The IP adress of the phone should now show up
 
-Click install and run and now you have the app installed an running on your pebble!
+- On the CloudIDE at the develper page, add the server IP into cloudpebble which is showing on your phone.
+
+- Click install and run and now you have the app installed an running on your pebble!
 
 Flick your wrist and watch the image change.  Now that its working, its time go get hacking!  You can use the rest of this guide as reference.
 
@@ -93,21 +95,24 @@ If you choose option 2, you are on the right track and should create a new proje
 
 We are now ready to rock and roll.  Instead of writing code, lets have some fun and turn images into beautiful pixel art.  Keep in mind, I am terrible at graphic design, so am not going to do anything fancy.
 
-To get started you can download and install (GIMP - The GNU Image Manipulation Program)[http://www.gimp.org/] . Its a free and opensourced project which is very similar to photoshop.  If you can do things faster in photoshop use that.
+To get started you can download and install [GIMP - The GNU Image Manipulation Program](http://www.gimp.org/) . Its a free and opensourced project which is very similar to photoshop.  If you can do things faster in photoshop use that.
 
 After downloading and install GIMP, download a sample photo and get started.  For the hackathon and for the sake of this tutorial lets use  a cute panda for the app.  The designer on the team created this asset and shared it with me.  
 
 ![alt text](https://raw.githubusercontent.com/mrandrewandrade/scratch/master/images/first_pebble_tutorial/5.jpg )
 
-Lets go ahead and download the image by right clicking this and saving.
+Lets go ahead and download the image by right clicking this and saving.  Alternatively you can do the same [Here](https://raw.githubusercontent.com/mrandrewandrade/scratch/master/images/pandarough.jpg)
 
-https://raw.githubusercontent.com/mrandrewandrade/scratch/master/images/pandarough.jpg
+
+### Using GIMP
+
+After GIMP is intalled, let open the application.  
 
 After opening up gimp, I like to go to:
 
 windows-> enable single-window-mode to single window experience.
 
-Now lets open the photo up in GIMP by navigating to where it was downloaded.
+Now lets open the photo up in GIMP by navigating to where it was downloaded after going to File-> Open
 
 If a popup comes up about C2 conversion, just click convert
 
