@@ -3,7 +3,7 @@ A step by step guide to writing a pebble app with custom images, use the tap han
 
 Months ago I bought my first [pebble watch] (https://getpebble.com/) and I finally had a chance to make my first pebble app during HackTheNorth.  My team built an awesome app called Pandr, a tomagachhi like  iPhone app which grew based on your goals taking information from your wearables.
 
-Since Pebble was completely new to me, there was as slight bit of a learning curve, so this guide is my modest attempt to give a few trips and tricks to save time.  This guide was created by the help of Matthew Hungerford's advice at the hackathon and his smaple code [here] (https://github.com/mhungerford/pebble-firstwatch)
+Since Pebble was completely new to me, there was as slight bit of a learning curve, so this guide is my modest attempt to give a few trips and tricks to save time.  This guide was created by the help of [Matthew Hungerford's](https://github.com/mhungerford) advice at the hackathon and his sample code [here] (https://github.com/mhungerford/pebble-firstwatch)
 
 This guide goes over how to:
 - Turn images in pixel art for the pebble
