@@ -1,0 +1,19 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "andrew@andrewandrade.ca",
+    "longName": "First Pebble Tutorial",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "shortName": "First Pebble Tutorial",
+    "uuid": "1cf8a047-22a8-47cf-beee-1b3269a4a93f",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
