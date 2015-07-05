@@ -47,7 +47,7 @@ Once you have the ide open, you can now get stated with the sdks at the  bottom 
 The global settings for the IDE are at the top.  You can connect to your github account (recommended) and change some settings. I personally like VIM (do not select if you do not know what that is) with a nice monokai theme.  I suggest using spaces with reasonable tab or around 4 for readibilty.  Change the settings for your own needs, or you can keep them for now and play with them later.
 
 Here is mine for reference:
-![alt text](https://raw.githubusercontent.com/mrandrewandrade/scratch/master/images/first_pebble_tutorial/1.png "Settings")
+![alt text](/img/1.png "Settings")
 
 Again please do not select vim-like if you do not know what that is.  Just use the default settings if unsure.
 
@@ -62,12 +62,12 @@ From the  [CloudPebble IDE](https://cloudpebble.net/ide/) you can import [my pro
 - Fill out the project name: FIRST_PEBBLE_TUTORIAL
 - Github project: https://github.com/mrandrewandrade/first_pebble_tutorial
 
-![alt text](https://raw.githubusercontent.com/mrandrewandrade/scratch/master/images/first_pebble_tutorial/2.png )
+![alt text](/img/2.png )
 
 
 Alternatively you can download the zip folder for my app [here] (https://github.com/mrandrewandrade/first_pebble_tutorial/archive/master.zip)  and use the upload zip dialog filling out the name and selecting the file.
 
-![alt text](https://raw.githubusercontent.com/mrandrewandrade/scratch/master/images/first_pebble_tutorial/3.png )
+![alt text](/img/3.png )
 
 Now click import and get started
 
@@ -88,7 +88,7 @@ Flick your wrist and watch the image change.  Now that its working, its time go 
 
 ## Option 2: Create a project from scratch
 If you choose option 2, you are on the right track and should create a new project
-![alt text](https://raw.githubusercontent.com/mrandrewandrade/scratch/master/images/first_pebble_tutorial/4.png )
+![alt text](/img/4.png )
 
 
 ## Turning images into pixel art:
@@ -99,7 +99,7 @@ To get started you can download and install [GIMP - The GNU Image Manipulation
 
 After downloading and install GIMP, download a sample photo and get started.  For the hackathon and for the sake of this tutorial lets use  a cute panda for the app.  The designer on the team created this asset and shared it with me.  
 
-![alt text](https://raw.githubusercontent.com/mrandrewandrade/scratch/master/images/first_pebble_tutorial/5.jpg )
+![alt text](/img/5.jpg )
 
 Lets go ahead and download the image by right clicking this and saving.  Alternatively you can do the same [Here](https://raw.githubusercontent.com/mrandrewandrade/scratch/master/images/pandarough.jpg)
 
@@ -120,7 +120,7 @@ If a popup comes up about C2 conversion, just click convert
 
 The pebble screen is 144×168 pixel so lets get our image to that size.  Go to image-> scale image and lets set the width to 144.  Since the image is about square in this case, this should leave me with some pixels above and below for text such as the time and possible a messages
 
-![alt text](https://raw.githubusercontent.com/mrandrewandrade/scratch/master/images/first_pebble_tutorial/6.jpg)
+![alt text](/img/6.jpg)
 
 Now click scale and it should scale to a smaller size
 
@@ -134,7 +134,7 @@ Next lets go to the top menu and click Select-> Invert (or hit ctrl-I on windows
 
 Edit -> Stroke Selection  and making a solid color 1 px line width.
 
-![alt text](https://raw.githubusercontent.com/mrandrewandrade/scratch/master/images/first_pebble_tutorial/7.png )
+![alt text](/img/7.png )
 
 Now click stroke and how we have an outline.
 
@@ -152,11 +152,11 @@ Click Colors-> brightness-contrast
 
 Now toggle the brightnes and contast until you get a beautiful black and white image
 
-![alt text](https://raw.githubusercontent.com/mrandrewandrade/scratch/master/images/first_pebble_tutorial/8.png )
+![alt text](/img/8.png )
 
 You can also play with the brushes and pencil tool to get a better looking image.  For this example, I created a 1 px pencil by setting the square brush to size 0.1 and touched up the nose to my liking
 
-![alt text](https://raw.githubusercontent.com/mrandrewandrade/scratch/master/images/first_pebble_tutorial/9.png )
+![alt text](/img/9.png )
 
 Now that we have our pixel art, lets export to png.
 
