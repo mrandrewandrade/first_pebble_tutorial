@@ -21,7 +21,7 @@ int image_index = 1;
 
 //fuction which loads images given a resouce id
 void load_image_resource(uint32_t resource_id){
-        if (gbitmap_ptr) {
+    if (gbitmap_ptr) {
         gbitmap_destroy(gbitmap_ptr);
         gbitmap_ptr = NULL;
     }
@@ -43,7 +43,7 @@ void tick_handler(struct tm *tick_time, TimeUnits units_changed){
         if (tick_time->tm_hour < 20 ) {
             load_image_resource(RESOURCE_ID_IMAGE_PANDA_HAPPY);
         }
-    //hes tired so lets make him sad
+        //hes tired so lets make him sad
         else { 
             load_image_resource(RESOURCE_ID_IMAGE_PANDA_SAD);
         }
@@ -53,14 +53,14 @@ void tick_handler(struct tm *tick_time, TimeUnits units_changed){
         }
         //Special case friday @ 5pm 
         if (tick_time->tm_wday == 5 && tick_time->tm_hour == 17) {
-             // Do something
+            // Do something
         }
         layer_mark_dirty(bitmap_layer_get_layer(bitmap_layer));
     }
-    
-     //Display time
+
+    //Display time
     if (units_changed & DAY_UNIT) {
-         current_time = time(NULL);
+        current_time = time(NULL);
         strftime(date_string, sizeof(date_string), "%a, %b %d", localtime(&current_time));
         layer_mark_dirty(text_layer_get_layer(date_text_layer));
     }
@@ -82,10 +82,10 @@ static void window_load(Window *window) {
     //Setup the time display
     time_text_layer = text_layer_create(GRect(34, 0, 88, 30));
     text_layer_set_text(time_text_layer, time_string);
-	text_layer_set_font(time_text_layer, fonts_get_system_font(FONT_KEY_BITHAM_30_BLACK));
+    text_layer_set_font(time_text_layer, fonts_get_system_font(FONT_KEY_BITHAM_30_BLACK));
     text_layer_set_text_alignment(time_text_layer, GTextAlignmentCenter);
     clock_copy_time_string(time_string,sizeof(time_string));
-  
+
     //Add clock text second
     layer_add_child(window_layer, text_layer_get_layer(time_text_layer));
 
@@ -95,12 +95,12 @@ static void window_load(Window *window) {
     date_text_layer = text_layer_create(GRect(4, 140, 88, 18));
     text_layer_set_text(date_text_layer, date_string);
     text_layer_set_font(date_text_layer, fonts_get_system_font(FONT_KEY_GOTHIC_18_BOLD));
- 
+
     layer_add_child(window_layer, text_layer_get_layer(date_text_layer));
-  
+
     //Setup hour and minute handlers
     tick_timer_service_subscribe((MINUTE_UNIT | HOUR_UNIT | DAY_UNIT), tick_handler);
-  
+
     //Setup tap service
     accel_tap_service_subscribe(tap_handler);
 }
@@ -110,16 +110,16 @@ static void window_unload(Window *window) {
 
 
 void handle_init(void) {
-  //Discover how many images from base index
+    //Discover how many images from base index
     while (resource_get_handle(max_images + 1)) {
         max_images++;
     }  
     my_window = window_create();
     window_set_fullscreen(my_window, true);
     window_set_window_handlers(my_window, (WindowHandlers) {
-      .load = window_load,
-      .unload = window_unload,
-    });
+            .load = window_load,
+            .unload = window_unload,
+            });
     window_stack_push(my_window, false/*animated*/);
 }
 
@@ -136,25 +136,25 @@ static void in_received_handler(DictionaryIterator *iter, void *context) {
         //check jey for tuple
         switch (tuple->key) {
             case image_key:
-            //APP_LOG(APP_LOG_LEVEL_DEBUG, "received png_data:%d bytes", tuple->length);
-            if (tuple->value->data ==0){
-                load_image_resource(RESOURCE_ID_IMAGE_PANDA_SAD);
-            }
-            else if (tuple->value->data[0] ==1)
-            {
-                load_image_resource(RESOURCE_ID_IMAGE_PANDA_HAPPY);
-            }
-            break;
-            //case  status_key:
-	        //if (tuple->value->data ==0) {
+                //APP_LOG(APP_LOG_LEVEL_DEBUG, "received png_data:%d bytes", tuple->length);
+                if (tuple->value->data ==0){
+                    load_image_resource(RESOURCE_ID_IMAGE_PANDA_SAD);
+                }
+                else if (tuple->value->data[0] ==1)
+                {
+                    load_image_resource(RESOURCE_ID_IMAGE_PANDA_HAPPY);
+                }
+                break;
+                //case  status_key:
+                //if (tuple->value->data ==0) {
                 //do something
-            //}
-            //else if (tuple->value->data[0] ==1){
-	            //do something else
-            //}
-	        //break;
+                //}
+                //else if (tuple->value->data[0] ==1){
+                //do something else
+                //}
+                //break;
             default:
-            break;
+                break;
         }
         tuple = dict_read_next(iter);
     }
@@ -174,8 +174,8 @@ static void app_message_init(void) {
 
 
 int main(void) {
-      app_message_init();
-      handle_init();
-	  app_event_loop();
-	  handle_deinit();
+    app_message_init();
+    handle_init();
+    app_event_loop();
+    handle_deinit();
 }
